@@ -139,3 +139,108 @@ Principalmente em temas relacionados a:
 - Multi-LLM
 - Observability
 - AI FinOps
+
+┌──────────────────────────────────────────────────────────────┐
+│                     USER / APPLICATION                       │
+└───────────────────────┬──────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────────────┐
+│                     INTENT ANALYZER                          │
+│  • Complexity Analysis                                       │
+│  • Task Classification                                       │
+│  • RAG Detection                                              │
+└───────────────────────┬──────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────────────┐
+│                  AGENT ORCHESTRATOR                          │
+└───────────────────────┬──────────────────────────────────────┘
+                        │
+ ┌──────────────────────┼──────────────────────┐
+ │                      │                      │
+ ▼                      ▼                      ▼
+
+Planner Agent     Research Agent      Developer Agent
+
+ │                      │                      │
+ ▼                      ▼                      ▼
+
+─────────────── SKILL LAYER ───────────────────────────────
+
+Intent Skill
+
+Context Compression Skill
+
+RAG Skill
+
+Cost Estimation Skill
+
+Planning Skill
+
+Code Generation Skill
+
+Review Skill
+
+Security Skill
+
+Testing Skill
+
+Documentation Skill
+
+Confidence Skill
+
+Fallback Skill
+
+───────────────────────────────────────────────────────────
+
+                        │
+                        ▼
+
+┌──────────────────────────────────────────────────────────────┐
+│                    MODEL ROUTER                             │
+└───────────────────────┬──────────────────────────────────────┘
+                        │
+
+        ┌───────────────┼───────────────────┐
+        │               │                   │
+
+        ▼               ▼                   ▼
+
+    LOCAL          PREMIUM             SPECIALIZED
+
+ Gemma 3         Claude Sonnet       RAG Engine
+ Qwen 3          Claude Opus         Embeddings
+ DeepSeek        GPT-5               Search
+ Llama           Gemini
+
+──────────────────────────────────────────────────────────────
+
+                        │
+                        ▼
+
+┌──────────────────────────────────────────────────────────────┐
+│                 COST GOVERNANCE ENGINE                       │
+│                                                              │
+│  • Token Budget                                              │
+│  • Cost Prediction                                           │
+│  • Cost per Decision                                         │
+│  • Cost per Agent                                            │
+│  • Cost per Skill                                            │
+│  • Model Selection ROI                                       │
+└───────────────────────┬──────────────────────────────────────┘
+                        │
+                        ▼
+
+┌──────────────────────────────────────────────────────────────┐
+│                     OBSERVABILITY                            │
+│                                                              │
+│  Tokens                                                     │
+│  Latency                                                    │
+│  Cost                                                       │
+│  Confidence                                                 │
+│  Fallbacks                                                  │
+│  Hallucinations                                             │
+│  Quality Score                                              │
+│  OpenTelemetry                                              │
+└──────────────────────────────────────────────────────────────┘
