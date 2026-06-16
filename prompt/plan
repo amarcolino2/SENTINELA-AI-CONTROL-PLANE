@@ -1,0 +1,253 @@
+MASTER PROMPT — AI CONTROL PLANE
+Você é um Arquiteto Principal especializado em:
+
+Specification Driven Development (SDD)
+Agentic AI
+Multi-Agent Systems
+AI Runtime Orchestration
+Clean Architecture
+DDD
+Harness Engineering
+Observability
+Event Driven Architecture
+AI Cost Governance
+Sua missão é criar a especificação completa de um produto chamado:
+
+Sentinela AI Control Plane
+CONTEXTO
+O objetivo do produto não é responder perguntas.
+
+O objetivo é governar e otimizar ecossistemas de Inteligência Artificial.
+
+O sistema deve decidir dinamicamente:
+
+Qual modelo utilizar
+Qual agente executar
+Quando usar RAG
+Quando usar IA local
+Quando usar IA premium
+Quando realizar fallback
+Como reduzir custo
+Como reduzir latência
+Como manter qualidade
+VISÃO
+O sistema atua como um "Sistema Operacional para IA".
+
+Usuários e aplicações enviam solicitações.
+
+O Control Plane avalia:
+
+Complexidade
+Contexto
+Custo
+Latência
+Qualidade esperada
+Disponibilidade dos modelos
+e escolhe a melhor estratégia de execução.
+
+MODELOS DISPONÍVEIS
+Locais
+Gemma 3
+Qwen 3
+DeepSeek
+Llama
+Executados via Ollama ou vLLM.
+
+Premium
+Claude Opus
+Claude Sonnet
+GPT-5
+GPT-5 Mini
+Gemini
+Outros provedores futuros
+PRINCÍPIO FUNDAMENTAL
+O sistema deve maximizar:
+
+Qualidade ÷ Custo
+
+e não apenas qualidade.
+
+CAPACIDADES
+Capability 01
+Intent Analysis
+
+Responsável por:
+
+Identificar objetivo
+Classificar tarefa
+Estimar complexidade
+Detectar necessidade de RAG
+Capability 02
+Context Governance
+
+Responsável por:
+
+Gerenciar janela de contexto
+Eliminar ruído
+Priorizar relevância
+Realizar sumarização progressiva
+Capability 03
+Cost Intelligence
+
+Responsável por:
+
+Estimar custo antes da execução
+Comparar modelos
+Calcular ROI da inferência
+Definir orçamento por tarefa
+Capability 04
+Model Routing
+
+Responsável por:
+
+Selecionar modelo
+Selecionar temperatura
+Selecionar contexto
+Selecionar estratégia
+Capability 05
+Multi-Agent Orchestration
+
+Agentes possíveis:
+
+Planner Agent
+Research Agent
+RAG Agent
+Architect Agent
+Developer Agent
+Reviewer Agent
+Security Agent
+Testing Agent
+Documentation Agent
+Capability 06
+Fallback Intelligence
+
+Quando:
+
+Timeout
+Quota excedida
+Rate limit
+Modelo indisponível
+Confiança baixa
+o sistema deve recalcular a estratégia.
+
+Capability 07
+Confidence Engine
+
+Responsável por:
+
+Avaliar confiança
+Solicitar segunda opinião
+Escalar para modelo superior
+Capability 08
+Observability
+
+Registrar:
+
+Tokens
+Latência
+Custo
+Modelo utilizado
+Trocas de modelo
+Qualidade estimada
+Qualidade observada
+Fallbacks
+Hallucinations detectadas
+Capability Model 09
+Core Skills
+
+Intent Classification
+Context Compression
+Cost Estimation
+Confidence Evaluation
+RAG Retrieval
+Planning
+Summarization
+Code Generation
+Security Review
+Testing
+Meta Skills
+Skill Selection
+Skill Optimization
+Skill Retirement
+Skill Benchmarking
+Skill Cost Governance
+
+SDD
+Gerar:
+
+Vision Document
+Business Requirements
+Functional Requirements
+Non Functional Requirements
+Bounded Contexts
+Event Storming
+ADRs
+Agent Specifications
+Model Routing Rules
+Cost Governance Rules
+Observability Specifications
+Security Specifications
+AI Evaluation Harness
+Acceptance Criteria
+Roadmap
+REGRAS DE EXECUÇÃO
+O sistema deve ser capaz de decidir:
+
+Exemplo 1:
+
+Pergunta simples
+
+→ Gemma 3 Local
+
+Exemplo 2:
+
+Análise jurídica complexa
+
+→ Claude Sonnet
+
+Exemplo 3:
+
+Planejamento de arquitetura
+
+→ Claude Opus (Planner)
+
+→ GPT-5 (Architect)
+
+→ Gemma Local (Documentation)
+
+Exemplo 4:
+
+Geração de código
+
+→ GPT-5
+
+→ Reviewer Agent
+
+→ Security Agent
+
+→ Test Agent
+
+EVOLUÇÃO FUTURA
+Projetar a arquitetura para:
+
+AI Native Development
+Executable Specifications
+Autonomous Delivery Pipelines
+Self Optimizing Agent Systems
+Runtime Model Replacement
+Dynamic Agent Creation
+World Models para Governança de IA
+RESULTADO ESPERADO
+Gerar uma especificação completa orientada por SDD.
+
+Nenhuma implementação inicialmente.
+
+Primeiro construir a intenção.
+
+Depois a arquitetura.
+
+Depois os agentes.
+
+Depois a execução.
+
+Seguir rigorosamente os princípios modernos de AI Engineering observados em 2025–2026.
